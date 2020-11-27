@@ -1,0 +1,23 @@
+<html>
+ <body>
+ 	<h2> lets do it </h2>
+ 	<div style = 'padding-top:6px'> 
+    <form method= 'POST' id="justpay" action = "/pay" class = 'form'>{% csrf_token %}
+   
+        <input type = 'text' name = 'firstname'/>
+        
+        <input type = 'text' name = 'lastname'/>
+        
+             
+         
+        <button type = 'submit' class = 'btn btn-info btn-sm' style = 'width:100px;'>pay</button>
+            
+
+    </form> </div>
+
+
+
+
+
+ </body>
+</html>
