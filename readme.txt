@@ -1,3 +1,6 @@
+Golang version go1.15.3 has been used
+
+for front end dependencies check the file package.json in the frontend folder
 
 A demonstration of the application can be found at - https://youtu.be/e31ImrjTEsM
 
