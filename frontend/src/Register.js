@@ -32,7 +32,7 @@ formSubmit(event){
         this.setState({
           password:this.state.password1
         })
-        const url = 'http://localhost:8009/register';
+        const url = '/register';
         
         let registerData = {
          "UserName" : this.state.username, 

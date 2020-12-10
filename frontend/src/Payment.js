@@ -61,7 +61,7 @@ class Payment extends Component {
      })
         
    
-      const url = 'http://localhost:8009/pay';
+      const url = '/pay';
       
       let paydata = {
        "Card" : this.state.creCaNr?"Credit Card":"Debit Card",   

@@ -30,7 +30,7 @@ class Cart extends Component {
     var nr = event.target.value -1
     let curComp = this 
      
-    const url = 'http://localhost:8009/delete';
+    const url = '/delete';
     
     let deleteItem = {
      "ItemNr" : nr  
@@ -74,7 +74,7 @@ class Cart extends Component {
     
 
     let curComp = this   
-    const url = 'http://localhost:8009/changeQty';
+    const url = '/changeQty';
     
     let qtyData = {
      "Name" :  event.target.name,

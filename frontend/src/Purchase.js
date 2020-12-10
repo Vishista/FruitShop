@@ -32,7 +32,7 @@ addtocart(event){
       const {price} = this.props
       
       let curComp = this   
-      const url = 'http://localhost:8009/handlecart';
+      const url = '/handlecart';
       
       
       let cartdata = {

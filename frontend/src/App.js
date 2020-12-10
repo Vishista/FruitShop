@@ -23,7 +23,7 @@ class App extends Component {
     }
   loadFromBackend(){
   let curComp = this
-  const url = 'http://localhost:8009/search';
+  const url = '/search';
   let type = {
         method:'GET',
         headers:{

@@ -29,7 +29,7 @@ formSubmit(event){
     })
     
     let curComp = this   
-    const url = 'http://localhost:8009/login';
+    const url = '/login';
     
     let loginData = {
      "UserName" : this.state.username, 
@@ -65,8 +65,8 @@ formSubmit(event){
       });
 
       this.setState({
-        username:'',
-        password:''
+        username: null,
+        password: null
       })
 }
 

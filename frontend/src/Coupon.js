@@ -76,7 +76,7 @@ class Coupon extends Component {
       timeElapsed:-1,
     })
     let curComp = this   
-        const url = 'http://localhost:8009/handlediscount';
+        const url = '/handlediscount';
         
         let cartdata = {
          "OrDiscount": true    
@@ -137,7 +137,7 @@ class Coupon extends Component {
  checkUsedCoupon(){
 
   let curComp = this   
-        const url = 'http://localhost:8009/usedcouponcheck';
+        const url = '/usedcouponcheck';
                        
         let type = {
             
